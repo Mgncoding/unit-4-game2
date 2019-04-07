@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Game</title>
     
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <h1 id="header">Crystal Collector</h1>
+   <div id="first">
+    <h1>Crystal Collector</h1> </div>
+    <div id="second">
     <section>
         <p>You will be given a random number at the start of the game</p><br>
         <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
@@ -17,21 +19,27 @@
         <p>You win the game by mataching your total score to random number, you lose the game if your total score goes above the random number.</p><br>
         <p>The value of each crystal is hidden from you until you click on it.</p> <br>
         <p>Each time when the game starts, the game will change the values of each crystal.</p>
-    </section>
-    <article>Number spot</article>
+    </section></div>
+    <div id="third">
+    <article>50</article></div>
 
-    <div id="randomNum">50</div>
+     <div id="score">   
+    <aside><p id="wins">Wins:</p><br> <p id="losses">Losses: </p> </aside></div>
 
-    <aside>Wins: Losses: </aside>
+    <div id="imagespot">
+        <img id="crystalone" src="assets/images/purple.png" alt="purple"><br>
+        <img id="crystaltwo" src="assets/images/blue.png" alt="blue"><br>
+        <img id="crystalthree" src="assets/images/red.png" alt="Red"><br>
+        <img id="crystalfour" src="assets/images/green.png" alt="Green"><br>
+    </div>
+    <div id="line">
+        <h4>Total Score is:</h4>
+    </div>
+    <div id="sum">
+         <h5>Sum</h5>
+    </div>
 
-
-    <img id="crystalone" src="assets/images/heart.png" alt="Heart">
-    <img id="crystaltwo" src="assets/images/blue.png" alt="blue">
-    <img id="crystalthree" src="assets/images/red.png" alt="Red">
-    <img id="crystalfour" src="assets/images/green.png" alt="Green">
-
-    <h4>Total Score is</h4>
-    <h5>Sum</h5>
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>

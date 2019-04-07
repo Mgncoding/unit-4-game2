@@ -1,0 +1,104 @@
+*::after, *::before {
+    box-sizing: border-box
+}
+#first {
+   float: left;
+   border:none;
+   height:55px;
+   width: 180px;
+   padding:10px;
+   border: none;
+   background: orange;
+   font-size: 20px; 
+   margin-bottom: 10px;
+   margin-left: 10px;
+   text-align: center
+}
+#second {
+    clear: both;
+    border:none;
+   height:400px;
+   width: 500px;
+   padding:15px;
+   border: none;
+   background: beige;
+   margin-bottom: 10px;
+   margin-left: 10px;
+   font-size: 18px;
+}
+#third {
+    float: left;
+    height: 80px;
+    width: 175px;
+    background: green;
+    margin-bottom: 10px;
+   margin-left: 10px;
+   font-size: 18px;
+
+}
+#score {
+    float: left;
+    height: 80px;
+    width: 80px;
+    background: lightskyblue;
+    margin-bottom: 10px;
+   margin-left: 10px;
+   font-size: 18px;
+}
+#imagespot {
+    clear: both;
+    display: flex;
+    background: transparent;
+    border: none;
+    
+    
+}
+#crystalone {
+    float: left;
+    height: 100px;
+    width: 100px;  
+    margin-left: 10px;
+    background: transparent
+}
+#crystaltwo {
+    float: left;
+    height: 100px;
+    width: 100px;  
+    margin-left: 10px;
+}
+#crystalthree {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+#crystalfour {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+#line {
+    clear: both;
+    width: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   margin-left: 10px;
+   background: darkcyan;
+   
+}
+#sum {
+    float: left;
+    height: 80px;
+    width: 175px;
+    background: darkcyan;
+    margin-bottom: 10px;
+   margin-left: 10px;
+   font-size: 18px;
+}
+body {
+    background: url("../images/background.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
